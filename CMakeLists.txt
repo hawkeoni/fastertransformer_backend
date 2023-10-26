@@ -111,8 +111,7 @@ else()
   FetchContent_Declare(
     repo-ft
     GIT_REPOSITORY https://github.com/void-main/FasterTransformer.git
-    GIT_TAG main
-    GIT_SHALLOW ON
+    GIT_TAG 50fdb0c603f7740a80f93501d7dc29bda131552a
   )
 endif()
 FetchContent_MakeAvailable(repo-common repo-core repo-backend repo-ft)
